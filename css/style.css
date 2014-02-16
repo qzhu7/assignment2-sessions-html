@@ -16,15 +16,6 @@ h4 {
 	font-family:Georgia, "Times New Roman", Times, serif;
 }
 
-
-
-.wrapper {
-	width:800px;
-	margin:0 auto;
-	padding:20px;
-	border:2px solid #FC6;
-}
-
 header {
 	height:150px;
 	border: 2px dotted #FFFFCC;
