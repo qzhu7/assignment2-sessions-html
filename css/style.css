@@ -9,6 +9,8 @@ h1,h2 {
 h3 {
 	color:#069;
 	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bolder;
+	
 }
 
 h4 {
@@ -25,7 +27,12 @@ footer {
 	color:#C60;
 } 	
 
-
+p.presenter {
+	font-style:italic;
+	color:#960;
+	
+}
+	
 
 nav {
 	margin: 20%;
