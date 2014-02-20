@@ -1,21 +1,36 @@
 @charset "utf-8";
 /* CSS Document */
 
-h1,h2 {
+img,video{width: auto; max-width: 100%; height: auto; margin: 0 auto 1em;}
+
+h1 {
 	text-align:center;
 	color:#60F;
+	font-size:4em;
+	  
+}
+
+h2 {
+	color:#60F;
+	text-align:center;
+	font-size:1.5em;
+	 
 }
 
 h3 {
 	color:#069;
 	font-family:Verdana, Geneva, sans-serif;
 	font-weight:bolder;
+	font-size:1.2em;
+	line-height:.5;  
 	
 }
 
 h4 {
 	color:#C60;
 	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1em;
+	line-height:.5;  
 }
 
 header {
@@ -37,7 +52,7 @@ p.presenter {
 nav {
 	margin: 20%;
 	display:inline;
-	text-align:left;
+	text-align:center;
 	}
 
 
@@ -47,7 +62,7 @@ ul {
   list-style-type: none;
   display:inline-block;
   margin: 0px auto;
-  text-align:left;
+  text-align:center;
 }
  
 li {
@@ -58,7 +73,7 @@ li {
   padding: 0 20px;
   display:inline-block;
   margin: 0px auto;
-  text-align:left;
+  text-align:center;
 }
  
 li:last-child {
@@ -92,4 +107,62 @@ li.active a {
 
 body,p {
 	background-color:#FFC;
+	text-align:left; 
+	font-size:100%; 
+	line-height: 1.3;
+	font-family:sans-serif; 
+
 }
+
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+.session{
+	width: 80%
+	padding:20%;
+	margin:15px auto;
+	border: 1px groove orange; 
+	padding:2px 8px;   
+	border-radius:10px; 
+	 
+}
+
+#write {
+	margin:15px auto;
+	border: 1px groove green; 
+	padding:0px 6px;   
+	border-radius:10px;
+}
+
+#art {
+	margin:15px auto;
+	border: 1px groove green; 
+	padding:0px 6px;   
+	border-radius:10px;
+}
+
+#perform {
+	margin:15px auto;
+	border: 1px groove green; 
+	padding:0px 6px;   
+	border-radius:10px;
+}
+
+#media {
+	margin:15px auto;
+	border: 1px groove green; 
+	padding:0px 6px;   
+	border-radius:10px;
+}
+
+.set {
+	width: 50%
+	float:left;
+	padding: 0 2%;
+}
+
+
+
